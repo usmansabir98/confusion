@@ -33,7 +33,7 @@ class CommentForm extends Component{
         // alert("Current state: " + JSON.stringify(e));
         // e.preventDefault();
 
-        this.props.addComment(this.props.dishId, values.rating, values.author, values.comment);
+        this.props.addComment(this.props.dishId, values.rating, values.author, values.message);
     }
 
     render() {
